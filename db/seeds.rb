@@ -60,11 +60,11 @@ answer8c = Answer.create(content:"Someone who makes a trail", question_id:8, is_
 answer8d = Answer.create(content:"A type of food eaten while hiking", question_id:8, is_correct:false)
 
 answer9a = Answer.create(content:"A type of shelter.", question_id:9, is_correct:false)
-answer9b = Answer.create(content:"A particularly beautiful on a trail", question_id:9, is_correct:false)
+answer9b = Answer.create(content:"A particularly beautiful spot on a trail", question_id:9, is_correct:false)
 answer9c = Answer.create(content:"A mound of stones used to mark a trail", question_id:9, is_correct:true)
 answer9d = Answer.create(content:"An animal carcass", question_id:9, is_correct:false)
 
 answer10a = Answer.create(content:"Panic", question_id:10, is_correct:false)
 answer10b = Answer.create(content:"Pick a direction and start walking", question_id:10, is_correct:false)
-answer10c = Answer.create(content:"Signal with for help by blowing on a whistle three times.", question_id:10, is_correct:true)
+answer10c = Answer.create(content:"Signal for help by blowing on a whistle three times.", question_id:10, is_correct:true)
 answer10d = Answer.create(content:"Light a fire to help people find you", question_id:10, is_correct:false)

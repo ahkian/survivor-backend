@@ -10,7 +10,7 @@ class Api::V1::UsersController < ApplicationController
   end
 
   private
-  def question_params
-    params.require(:Users).permit(:name)
+  def user_params
+    params.require(:user).permit(:name)
   end
 end
