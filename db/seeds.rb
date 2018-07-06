@@ -6,8 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-question1 = Question.create(content:'Which of these choices will not stop a bear from getting your food?
-')
+question1 = Question.create(content:'Which of these choices will not stop a bear from getting your food?')
 question2 = Question.create(content:'You see some bear cubs playing together about 50 feet away from you and you want to take a picture. What should you do?')
 question3 = Question.create(content:'Which of these is the best way to avoid bears when you’re in the wild?')
 question4 = Question.create(content:'While walking in the woods you come upon a grizzly bear. It is surprised by your presence and attacks. What do you do?')
@@ -16,8 +15,7 @@ question6 = Question.create(content:'What is hypothermia?')
 question7 = Question.create(content:'Which of these is not a symptom of hypothermia?')
 question8 = Question.create(content:'What is a trail blaze?')
 question9 = Question.create(content:'What is a cairn?')
-question10 = Question.create(content:'If you are lost you should ____ ?
-')
+question10 = Question.create(content:'If you are lost you should ____ ?')
 
 answer1a = Answer.create(content:"A bear bag", question_id:1, is_correct:false)
 answer1b = Answer.create(content:"Keeping it in your tent.", question_id:1, is_correct:true)
